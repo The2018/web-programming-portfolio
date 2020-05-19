@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charst="utf-8">
+	<title> Surveyers of the Galaxy</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="js/clientConnectionManager.js"></script> 
+	<script src="js/clientApp.js"></script>
+	<script src="js/player.js"></script>
+	<script src="js/board.js"></script>
+	<script src="js/renderer.js"></script>
+	<script src="js/game.js"></script>
+
+</head>
+
+<body onload="clientConnectionManager.init()">
+<div class="browser"> 
+
+	<section> 
+	<div id="roomBrowser">
+	
+	</div>
+	</section> 
+</div>
+<div id="canvas-container">
+	<canvas id="entry" width="600" height="400"></canvas>
+</div>
+<div class="flex-container">
+<div id="login">
+<!-- 		<section>
+		<h2>Login</h2>
+		<form>
+		<p class="logintext" style="font-size: 13px">Username</p>
+		<input id="username" type="text">
+		<p class="emailtext" style="font-size: 13px">Email</p>
+		<input id="email" type="email">
+		<div class="clearfix"></div>
+		<div class="button"><span onclick="clientConnectionManager.requestLogin()">Sign in</span></div>
+		<div class="clearfix"></div>
+		<p id="loginerror" class="error">&nbsp;</p>
+		</form>
+
+	</section> -->
+</div>
+</div>
+<div id="fuelbar">
+	<!-- <section>
+		<div class="clearfix"></div>
+		<h2>Score Board</h2>
+		<table class="scores">
+			<thead>
+				<tr> <th>Player</th> <th>Best Record</th> <th>Win Rate</th> </tr>
+			</thead>
+			<tbody>
+				<tr> <td>name1</td> <td>10</td> <td>70%</td> </tr>
+				<tr> <td>name2</td> <td>9</td> <td>60%</td> </tr>
+				<tr> <td>name3</td> <td>7</td> <td>55%</td> </tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section>
+		<span class="button"><span class="icon" onclick="clientConnectionManager.requestRestartGame()">R</span></span> 
+		<span class="button"><span class="icon" onclick="game.pauseGame()">P</span></span> 
+		<span class="button"><span class="icon" onclick="clientConnectionManager.requestBacktoRoomBrowser()">N</span></span>
+		<div class="clearfix"> 
+	</section> -->
+</div>
+
+<div id="bottombar">
+	<!-- <section>
+		<div class="player1">
+		<h2>Player 1</h2>
+
+		<p>Fuel Level</p>
+		<table class="fuel">
+			<tr> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> 
+			<td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> </tr>
+		</table>
+		<p>Events</p>
+		<table class="event">
+			<tr> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> </tr>
+		</table>
+		</div>
+
+		<div class="player2">
+		<h2>Player 2</h2>
+
+		<p>Fuel Level</p>
+		<table class="fuel">
+			<tr> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> 
+			<td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> </tr>
+		</table>
+		<p>Events</p>
+		<table class="event">
+			<tr> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> </tr>
+		</table>
+		</div>
+	</section> -->
+</div>
+
+<div id="board">
+<!-- 	<section>
+		<div id="stateManager" class="display"></div>
+		<canvas id="gamecanvas" width="800" height="450"></canvas>
+	</section> -->
+</div>
+</body>
+</html>
+
+
+
+
+

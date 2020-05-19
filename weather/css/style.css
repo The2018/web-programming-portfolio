@@ -1,0 +1,27 @@
+th {
+	cursor:pointer;
+}
+table{
+	border-collapse: separate;
+	border-spacing: 100px 20px;
+	width:100%;
+}
+/*		#searchTable{
+	border-collapse: separate;
+	border-spacing: 100px 20px;
+}*/
+
+div{
+	margin: 3ex;
+}
+
+h3{
+	font-size:50px;
+	margin:0px;
+	text-align:right;
+	float:right;
+}
+
+.clearfix{
+	clear:both;
+}

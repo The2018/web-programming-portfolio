@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charst="utf-8">
+	<title> Surveyers of the Galaxy GUI</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/template.js"></script>
+
+</head>
+
+<body>
+<div class="sidebar">
+	<section>
+		<h2>Login</h2>
+		<form>
+		<input id="username" type="text" placeholder="Username">
+		<input id="email" type="email" placeholder="email">
+		</form>
+		<div class="clearfix">
+		<div class="button">login</div>
+		<div class="clearfix">
+	</section>
+
+	<section>
+		<div class="clearfix"></div>
+		<h2>Score Board</h2>
+		<table class="scores">
+			<thead>
+				<tr> <th>Player</th> <th>Best Record</th> <th>Win Rate</th> </tr>
+			</thead>
+			<tbody>
+				<tr> <td>name1</td> <td>10</td> <td>70%</td> </tr>
+				<tr> <td>name2</td> <td>9</td> <td>60%</td> </tr>
+				<tr> <td>name3</td> <td>7</td> <td>55%</td> </tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section>
+		<span class="button"><span class="icon">R</span></span> 
+		<span class="button"><span class="icon">P</span></span> 
+		<span class="button"><span class="icon" id="quit">N</span></span>
+		<div class="clearfix"> 
+	</section>
+</div>
+
+<div class="bottombar">
+	<section>
+		<div class="player1">
+		<h2>Player 1</h2>
+
+		<p>Fuel Level</p>
+		<table class="fuel">
+			<tr> <td>X</td> <td>X</td> <td>X</td> <td></td> <td></td> <td></td> 
+			<td></td> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
+		</table>
+		<p>Events</p>
+		<table class="event">
+			<tr> <td>X</td> <td></td> <td>X</td> <td></td> <td>X</td> <td></td> </tr>
+		</table>
+		</div>
+
+		<div class="player2">
+		<h2>Player 2</h2>
+
+		<p>Fuel Level</p>
+		<table class="fuel">
+			<tr> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td>X</td> 
+			<td></td> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
+		</table>
+		<p>Events</p>
+		<table class="event">
+			<tr> <td>X</td> <td>X</td> <td>X</td> <td>X</td> <td></td> <td></td> </tr>
+		</table>
+		</div>
+	</section>
+</div>
+
+<div id="board">
+	<section>
+		<canvas id="gamecanvas" width="800" height="450"></canvas>
+	</section>
+</div>
+
+</body>
+</html>
+
+
+
+
+
